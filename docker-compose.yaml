@@ -1,0 +1,7 @@
+version: '3.5'
+services:
+  orbital:
+    build: ./
+    image: orbital:latest
+    ports:
+      - "8080:8080"
